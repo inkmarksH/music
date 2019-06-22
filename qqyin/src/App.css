@@ -1,0 +1,632 @@
+.box {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.box .header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.6rem;
+    padding: 0 0.2rem;
+    background: #fff;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.box .header img {
+    height: 0.55rem;
+    width: 2.2rem
+}
+
+.box .header .r {
+    width: 1.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #ccc;
+}
+
+/* 头部 */
+.box .footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.2rem;
+    padding: 0 0.2rem;
+    background: rgba(255, 255, 255, .9);
+    ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    z-index: 20;
+}
+
+.box .footer .foot {
+    background: #30c27c;
+    width: 3.4rem;
+    height: .6rem;
+    line-height: .6rem;
+    color: #fff;
+    font-size: .25rem;
+    text-align: center;
+    border-radius: .28rem
+}
+
+/* 底部 */
+.box .main {
+    background: #fff;
+    margin-top: 1.7rem;
+    margin-bottom: 1.2rem;
+    overflow: hidden;
+}
+
+.box .main .nav {
+    margin-top: .1rem;
+    background: #fff;
+    display: flex;
+    height: .9rem;
+}
+
+.box .main .nav a {
+    flex: 1;
+    font-size: .32rem;
+    line-height: .9rem;
+    text-align: center;
+    color: #333;
+}
+
+.box .main .nav .select {
+    border-bottom: .04rem solid #30c27c;
+    color: #30c27c;
+}
+
+.box .ant-carousel {
+    height: 3rem;
+    overflow: hidden;
+}
+
+.box .ant-carousel img {
+    width: 100%;
+    height: 100%;
+}
+
+.box .main .min {
+    width: 100%
+}
+
+.box .main .min .mins {
+    padding: 0 .2rem;
+}
+
+.box .main .mins h2 {
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .32rem;
+}
+
+.main .mins ul {
+    /* width: 100%; */
+    height: 4rem;
+    overflow: hidden;
+}
+
+.main .mins ul li {
+    float: left;
+    margin-right: .1rem;
+    overflow: hidden;
+}
+
+.main .mins ul .img {
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-right: -.1rem
+}
+
+.main .mins ul .img img {
+    width: 100%;
+    height: 100%,
+}
+
+.main .mins ul p {
+    height: .6rem;
+    margin: 0;
+    padding: .05rem 0 0 .1rem;
+    color: #333;
+    background: #fff;
+}
+
+.main .fo {
+    margin-top: .4rem;
+}
+
+.main .fo p {
+    margin: 0 auto;
+    text-align: center;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .2rem
+}
+
+.main .fo p img {
+    height: .4rem
+}
+
+.main .list {
+    background: #f4f4f4;
+    padding: 0 .2rem
+}
+
+.lists {
+    margin: 0;
+    background: #f4f4f4;
+}
+
+.lists dd {
+    margin: .2rem 0;
+    height: 2rem;
+    overflow: hidden;
+    display: flex;
+    background: #fff;
+}
+
+.lists .img {
+    float: left;
+    height: 2rem;
+    width: 2rem;
+
+}
+
+.lists .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.lists .listn {
+    flex: 1;
+    float: left;
+    padding-left: .2rem;
+    padding-right: .1rem;
+    box-sizing: border-box;
+}
+
+.lists .listn div {
+    margin: 0;
+    overflow: hidden;
+}
+
+.lists .listn p {
+    margin: 0;
+    overflow: hidden;
+    line-height: .4rem;
+    height: .4rem;
+    font-size: .28rem;
+    color: #333;
+}
+
+.lists .listn p span {
+    color: #ccc;
+}
+
+.lists .listn h3 {
+    font-size: .35rem;
+}
+
+.search {
+    padding: 0 .2rem;
+    background: #f4f4f4
+}
+
+.search .s1 .ant-input {
+    width: 100%;
+    height: .8rem;
+    margin: 0.2rem 0;
+    border: none;
+}
+
+.search .s2 .ant-input-affix-wrapper {
+    width: 6rem;
+}
+
+.search .s2 .ant-input {
+    width: 6rem;
+    height: .8rem;
+    margin: 0.2rem 0;
+    border: none;
+}
+
+.search .s2 .qu {
+    display: inline-block;
+    width: .6rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center
+}
+
+.sou .con {
+    padding: 0 .2rem;
+    background: #fff;
+    height: 100%;
+}
+
+.sou .con h2 {
+    height: .8rem;
+    line-height: .8rem;
+}
+
+.sou .con p span {
+    display: inline-block;
+    border: 1px solid black;
+    margin: .1rem .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    padding: 0 .2rem;
+    border-radius: .3rem;
+}
+
+.sou .cons ul {
+    height: 6rem;
+    overflow: hidden;
+    background: #fff;
+    width: 100%
+}
+
+.sou .cons ul li {
+    display: flex;
+    width: 100%;
+    height: 1.2rem;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.sou .cons ul li div {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.sou .cons .conss {
+    flex: 1;
+}
+
+.sou .cons ul li h3 {
+    line-height: .6rem;
+    height: .6rem;
+    font-size: .35rem;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sou .cons ul li p {
+    line-height: .6rem;
+    height: .6rem;
+    font-size: .25rem;
+    margin: 0;
+    color: #808080;
+    overflow: hidden;
+}
+
+.sou .cons .icons {
+    height: 1.2rem;
+    width: 1.2rem;
+    color: #ccc;
+    font-size: .6rem;
+    text-align: center;
+    line-height: 1.2rem;
+    overflow: hidden;
+}
+
+
+.dans {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.dans .header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.2rem;
+    padding: 0 0.4rem;
+    background: #fff;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.dans .header .img {
+    font-size: .3rem;
+    color: #333;
+}
+
+.dans .header img {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-right: .2rem;
+}
+
+.dans .header .r {
+    width: 1.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #ccc;
+    color: #333;
+}
+
+.dans .play {
+    margin-top: 1.4rem;
+    margin-bottom: .2rem;
+    text-align: center
+}
+
+.dans .play img {
+    height: 3.6rem;
+    width: 3.6rem;
+    border-radius: .4rem;
+    margin-bottom: .4rem;
+}
+
+.dans .play h2 {
+    font-size: .35rem;
+    color: #121212
+}
+
+.dans .play p {
+    font-size: .3rem;
+    color: #121212
+}
+
+.dans .play .time {
+    font-size: .28rem;
+    color: gray;
+}
+
+.dans .play .btn {
+    width: 3.6rem;
+    background: #30c27c;
+    margin: auto;
+    height: .8rem;
+    border-radius: .4rem;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .6rem;
+    color: #fff;
+}
+
+.dans .dlist h3 {
+    padding: 0 .2rem 0rem;
+    color: #ccc;
+}
+
+.dans .dlist dl {
+    margin-bottom: .6rem;
+}
+
+.dans .dlist dd {
+    color: #121212;
+    height: 1.1rem;
+    overflow: hidden;
+    padding: .1rem .1rem .1rem 0;
+    margin-bottom: 0;
+}
+
+.dans .dlist dd div {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: text-top;
+}
+
+.dlist dd .ti {
+    margin: auto
+}
+
+.dlist dd .ti span {
+    display: block;
+    text-align: center;
+}
+
+.dlist dd .ti .num {
+    color: #f56273;
+    margin-bottom: 0.5em;
+}
+
+.dlist dd .ti svg {
+    color: #f56273;
+}
+
+.dlist dd .ico {
+    height: 1.1rem;
+    font-size: .4rem;
+    line-height: 1.1rem;
+    float: right;
+}
+
+.dlist dd .ming p {
+    margin: 0;
+}
+
+.dlist .jie {
+    padding: 0 .3rem;
+    font-size: .2rem;
+    font-weight: 300;
+    margin-bottom: .6rem;
+    color: #121212;
+}
+
+
+.playg {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.playg .header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.6rem;
+    padding: 0 0.2rem;
+    background: #fff;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+
+.playg .header .img {
+    font-size: .32rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.playg .header img {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: .2rem;
+}
+
+.playg .header .r {
+    width: 1.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #ccc;
+    color: #333;
+}
+
+.playg .mains {
+    margin-top: 1.6rem;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    -webkit-filter: blur(5px);
+    /* Chrome, Safari, Opera */
+    filter: blur(5px);
+    z-index: 10;
+}
+
+.playg .mains .mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+
+.playg .content .gc {
+    height: 4.8rem;
+    overflow: auto;
+    width: 100%;
+    -webkit-mask: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #fff 25%, #fff 75%, rgba(0, 0, 0, 0));
+    position: relative;
+    top:1
+}
+
+.playg .content .gc .gcn {
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    transition: top 0.4s;
+}
+.playg .content .gcn p{
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-bottom: .2rem;
+  text-align: center;
+  width: 100%;
+}
+.select{
+  color: #30c27c;
+  transition: all 0.4s;
+}
+
+.playg .content {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    top: 1.6rem;
+    left: 0;
+    z-index: 20;
+}
+
+.playg .content .tit {
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    z-index: 100;
+}
+
+.playg .content h1 {
+    line-height: .8rem;
+    height: .8rem;
+    font-size: .4rem;
+    margin-bottom: 0
+}
+
+.playg .content h2 {
+    line-height: .3rem;
+    height: .3rem;
+    font-size: .3rem;
+    color: #808080;
+}
+
+.playg .content img {
+    height: 4.8rem;
+    width: 4.8rem;
+}
+
+.playg .content .cont {
+    height: 1.6rem;
+}
+
+.playg .content .cont span {
+    display: inline-block;
+    line-height: .8rem;
+    height: .8rem;
+    width: .8rem;
+    border: .02rem solid #ccc;
+    border-radius: .4rem;
+    margin: .4rem;
+    vertical-align: top;
+    font-weight: bold;
+    color: #121212;
+    font-size: .4rem
+}
+
+.playg .content .btn {
+    width: 4.8rem;
+    height: .8rem;
+    background: #30c27c;
+    color: #fff;
+    font-size: .4rem;
+    text-align: center;
+    line-height: .8rem;
+    border-radius: .4rem;
+    margin: auto;
+}
